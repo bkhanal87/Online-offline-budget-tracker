@@ -19,8 +19,8 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/cryptic-shore-46384",
   {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
+    // useUnifiedTopology: true,
+    // useCreateIndex: true,
     useFindAndModify: false,
   }
 );
